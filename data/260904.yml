@@ -7,7 +7,7 @@ about:
   head: c5db070
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T19:52:53Z
+  collectedAt: 2026-09-04T20:48:39Z
 timeline:
   created: 2009-03-27
   lastCommit: 2026-08-07
@@ -89,6 +89,89 @@ total:
   openIssue: 0
   commit: 9621
 ---
+path: /home/runner/.x-repo/github.com/apache/apr
+collectedAt: 2026-09-04T20:48:42Z
+loc:
+  C:
+    code: 98657
+    comments: 15861
+    blanks: 19535
+    files: 346
+  CHeader:
+    code: 9305
+    comments: 17468
+    blanks: 3099
+    files: 134
+  M4:
+    code: 4083
+    comments: 1223
+    blanks: 342
+    files: 16
+  Autoconf:
+    code: 3600
+    comments: 1013
+    blanks: 667
+    files: 13
+  Xml:
+    code: 2037
+    comments: 0
+    blanks: 0
+    files: 2
+  Python:
+    code: 1177
+    comments: 88
+    blanks: 159
+    files: 5
+  CMake:
+    code: 807
+    comments: 53
+    blanks: 117
+    files: 3
+  Sh:
+    code: 400
+    comments: 227
+    blanks: 89
+    files: 9
+  AWK:
+    code: 327
+    comments: 24
+    blanks: 52
+    files: 4
+  Bitbake:
+    code: 227
+    comments: 19
+    blanks: 45
+    files: 3
+  Perl:
+    code: 194
+    comments: 25
+    blanks: 39
+    files: 2
+  Json:
+    code: 66
+    comments: 0
+    blanks: 0
+    files: 1
+  Scons:
+    code: 57
+    comments: 3
+    blanks: 22
+    files: 2
+  Batch:
+    code: 10
+    comments: 0
+    blanks: 0
+    files: 1
+  Text:
+    code: 0
+    comments: 4
+    blanks: 0
+    files: 3
+total:
+  code: 120947
+  comments: 36008
+  blanks: 24166
+  files: 544
 ---
 date: "2026-08-24"
 repo:
