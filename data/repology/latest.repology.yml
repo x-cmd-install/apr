@@ -1,194 +1,174 @@
-- repo: archpower_powerpc64le
-  srcname: apr
-  binname: apr
-  visiblename: apr
-  version: 1.7.6
-  origversion: 1.7.6-1
-  status: newest
-  summary: The Apache Portable Runtime
-  licenses:
-    - Apache-2.0
-- repo: archpower_powerpc
-  srcname: apr
-  binname: apr
-  visiblename: apr
-  version: 1.7.6
-  origversion: 1.7.6-1
-  status: newest
-  summary: The Apache Portable Runtime
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_17
+- repo: raspbian_testing
   subrepo: main
-  srcname: apr
-  binname: apr
-  visiblename: apr
-  version: 1.7.5
-  origversion: 1.7.5-r0
-  status: outdated
-  summary: The Apache Portable Runtime
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_17
-  subrepo: main
-  srcname: apr
-  binname: apr-dev
-  visiblename: apr-dev
-  version: 1.7.5
-  origversion: 1.7.5-r0
-  status: outdated
-  summary: The Apache Portable Runtime
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: main
-  srcname: apr
-  binname: apr
-  visiblename: apr
-  version: 1.7.5
-  origversion: 1.7.5-r0
-  status: outdated
-  summary: The Apache Portable Runtime
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: main
-  srcname: apr
-  binname: apr-dev
-  visiblename: apr-dev
-  version: 1.7.5
-  origversion: 1.7.5-r0
-  status: outdated
-  summary: The Apache Portable Runtime
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: main
-  srcname: apr
-  binname: apr
-  visiblename: apr
-  version: 1.7.5
-  origversion: 1.7.5-r0
-  status: outdated
-  summary: The Apache Portable Runtime
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: main
-  srcname: apr
-  binname: apr-dev
-  visiblename: apr-dev
-  version: 1.7.5
-  origversion: 1.7.5-r0
-  status: outdated
-  summary: The Apache Portable Runtime
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: main
-  srcname: apr
-  binname: apr
-  visiblename: apr
-  version: 1.7.5
-  origversion: 1.7.5-r0
-  status: outdated
-  summary: The Apache Portable Runtime
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: main
-  srcname: apr
-  binname: apr-dev
-  visiblename: apr-dev
-  version: 1.7.5
-  origversion: 1.7.5-r0
-  status: outdated
-  summary: The Apache Portable Runtime
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: main
-  srcname: apr
-  binname: apr
-  visiblename: apr
-  version: 1.7.5
-  origversion: 1.7.5-r0
-  status: outdated
-  summary: The Apache Portable Runtime
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: main
-  srcname: apr
-  binname: apr-dev
-  visiblename: apr-dev
-  version: 1.7.5
-  origversion: 1.7.5-r0
-  status: outdated
-  summary: The Apache Portable Runtime
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: apr
-  binname: apr
-  visiblename: apr
-  version: 1.7.5
-  origversion: 1.7.5-r0
-  status: outdated
-  summary: The Apache Portable Runtime
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: apr
-  binname: apr-dev
-  visiblename: apr-dev
-  version: 1.7.5
-  origversion: 1.7.5-r0
-  status: outdated
-  summary: The Apache Portable Runtime
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: pureos_landing
-  subrepo: landing/main
   srcname: apr
   binnames:
-    - libapr1-dev
     - libapr1t64
+    - libapr1-dev
   visiblename: apr
-  version: 1.7.5
-  origversion: 1.7.5-1
-  status: outdated
+  version: 1.7.6
+  origversion: 1.7.6-3
+  status: newest
   maintainers:
     - debian-apache@lists.debian.org
     - sf@debian.org
   categories:
-    - libdevel
+    - libs
+- repo: alpine_3_17
+  subrepo: main
+  srcname: apr
+  binname: apr
+  visiblename: apr
+  version: 1.7.5
+  origversion: 1.7.5-r0
+  status: outdated
+  summary: The Apache Portable Runtime
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_17
+  subrepo: main
+  srcname: apr
+  binname: apr-dev
+  visiblename: apr-dev
+  version: 1.7.5
+  origversion: 1.7.5-r0
+  status: outdated
+  summary: The Apache Portable Runtime
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: main
+  srcname: apr
+  binname: apr
+  visiblename: apr
+  version: 1.7.5
+  origversion: 1.7.5-r0
+  status: outdated
+  summary: The Apache Portable Runtime
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: main
+  srcname: apr
+  binname: apr-dev
+  visiblename: apr-dev
+  version: 1.7.5
+  origversion: 1.7.5-r0
+  status: outdated
+  summary: The Apache Portable Runtime
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: main
+  srcname: apr
+  binname: apr
+  visiblename: apr
+  version: 1.7.5
+  origversion: 1.7.5-r0
+  status: outdated
+  summary: The Apache Portable Runtime
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: main
+  srcname: apr
+  binname: apr-dev
+  visiblename: apr-dev
+  version: 1.7.5
+  origversion: 1.7.5-r0
+  status: outdated
+  summary: The Apache Portable Runtime
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: main
+  srcname: apr
+  binname: apr
+  visiblename: apr
+  version: 1.7.5
+  origversion: 1.7.5-r0
+  status: outdated
+  summary: The Apache Portable Runtime
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: main
+  srcname: apr
+  binname: apr-dev
+  visiblename: apr-dev
+  version: 1.7.5
+  origversion: 1.7.5-r0
+  status: outdated
+  summary: The Apache Portable Runtime
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: main
+  srcname: apr
+  binname: apr
+  visiblename: apr
+  version: 1.7.5
+  origversion: 1.7.5-r0
+  status: outdated
+  summary: The Apache Portable Runtime
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: main
+  srcname: apr
+  binname: apr-dev
+  visiblename: apr-dev
+  version: 1.7.5
+  origversion: 1.7.5-r0
+  status: outdated
+  summary: The Apache Portable Runtime
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: apr
+  binname: apr
+  visiblename: apr
+  version: 1.7.5
+  origversion: 1.7.5-r0
+  status: outdated
+  summary: The Apache Portable Runtime
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: apr
+  binname: apr-dev
+  visiblename: apr-dev
+  version: 1.7.5
+  origversion: 1.7.5-r0
+  status: outdated
+  summary: The Apache Portable Runtime
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_23
   subrepo: main
   srcname: apr
@@ -228,6 +208,13 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 0.9.17
+  origversion: 0.9.17-1
+  status: legacy
+  vulnerable: true
 - repo: alpine_3_24
   subrepo: main
   srcname: apr
@@ -350,6 +337,26 @@
   summary: The Apache Portable Runtime
   licenses:
     - Apache-2.0
+- repo: archpower_powerpc
+  srcname: apr
+  binname: apr
+  visiblename: apr
+  version: 1.7.6
+  origversion: 1.7.6-1
+  status: newest
+  summary: The Apache Portable Runtime
+  licenses:
+    - Apache-2.0
+- repo: archpower_powerpc64le
+  srcname: apr
+  binname: apr
+  visiblename: apr
+  version: 1.7.6
+  origversion: 1.7.6-1
+  status: newest
+  summary: The Apache Portable Runtime
+  licenses:
+    - Apache-2.0
 - repo: aur
   srcname: apr-2-svn
   binname: apr-2-svn
@@ -373,6 +380,21 @@
   summary: The Apache Portable Runtime
   licenses:
     - Apache-2.0
+- repo: debian_14
+  subrepo: forky/main
+  srcname: apr
+  binnames:
+    - libapr1t64
+    - libapr1-dev
+  visiblename: apr
+  version: 1.7.6
+  origversion: 1.7.6-3
+  status: newest
+  maintainers:
+    - debian-apache@lists.debian.org
+    - sf@debian.org
+  categories:
+    - libs
 - repo: centos_stream_10
   subrepo: AppStream
   srcname: apr
@@ -513,21 +535,17 @@
     - sf@debian.org
   categories:
     - libs
-- repo: debian_14
-  subrepo: forky/main
+- repo: manjaro_testing
+  subrepo: extra
   srcname: apr
-  binnames:
-    - libapr1t64
-    - libapr1-dev
+  binname: apr
   visiblename: apr
   version: 1.7.6
-  origversion: 1.7.6-3
+  origversion: 1.7.6-1
   status: newest
-  maintainers:
-    - debian-apache@lists.debian.org
-    - sf@debian.org
-  categories:
-    - libs
+  summary: The Apache Portable Runtime
+  licenses:
+    - Apache-2.0
 - repo: debian_unstable
   subrepo: sid/main
   srcname: apr
@@ -558,6 +576,19 @@
     - sf@debian.org
   categories:
     - libs
+- repo: msys2_msys2
+  subrepo: x86_64
+  srcname: apr
+  binname: apr
+  visiblename: apr
+  version: 1.7.6
+  origversion: 1.7.6-2
+  status: newest
+  summary: The Apache Portable Runtime
+  licenses:
+    - spdx:Apache-2.0
+  categories:
+    - libraries
 - repo: exherbo
   subrepo: arbor
   srcname: dev-libs/apr
@@ -679,6 +710,17 @@
     - Apache-2.0 AND (BSD-4-Clause-UC AND ISC AND Zlib AND Caldera-no-preamble)
   categories:
     - Unspecified
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: apr
+  binname: apr
+  visiblename: apr
+  version: 1.7.6
+  origversion: 1.7.6-1
+  status: newest
+  summary: The Apache Portable Runtime
+  licenses:
+    - Apache-2.0
 - repo: fedora_rawhide
   subrepo: development
   srcname: apr
@@ -706,21 +748,6 @@
     - apache@freebsd.org
   categories:
     - devel
-- repo: raspbian_stable
-  subrepo: main
-  srcname: apr
-  binnames:
-    - libapr1t64
-    - libapr1-dev
-  visiblename: apr
-  version: 1.7.5
-  origversion: 1.7.5-1
-  status: outdated
-  maintainers:
-    - debian-apache@lists.debian.org
-    - sf@debian.org
-  categories:
-    - libs
 - repo: gentoo
   srcname: dev-libs/apr
   visiblename: dev-libs/apr
@@ -917,28 +944,6 @@
   summary: The Apache Portable Runtime
   licenses:
     - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: apr
-  binname: apr
-  visiblename: apr
-  version: 1.7.6
-  origversion: 1.7.6-1
-  status: newest
-  summary: The Apache Portable Runtime
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: apr
-  binname: apr
-  visiblename: apr
-  version: 1.7.6
-  origversion: 1.7.6-1
-  status: newest
-  summary: The Apache Portable Runtime
-  licenses:
-    - Apache-2.0
 - repo: msys2_clang64
   srcname: mingw-w64-apr
   binname: mingw-w64-clang-x86_64-apr
@@ -983,34 +988,21 @@
     - spdx:Apache-2.0
   categories:
     - development
-- repo: raspbian_testing
+- repo: raspbian_stable
   subrepo: main
   srcname: apr
   binnames:
     - libapr1t64
     - libapr1-dev
   visiblename: apr
-  version: 1.7.6
-  origversion: 1.7.6-3
-  status: newest
+  version: 1.7.5
+  origversion: 1.7.5-1
+  status: outdated
   maintainers:
     - debian-apache@lists.debian.org
     - sf@debian.org
   categories:
     - libs
-- repo: msys2_msys2
-  subrepo: x86_64
-  srcname: apr
-  binname: apr
-  visiblename: apr
-  version: 1.7.6
-  origversion: 1.7.6-2
-  status: newest
-  summary: The Apache Portable Runtime
-  licenses:
-    - spdx:Apache-2.0
-  categories:
-    - libraries
 - repo: msys2_ucrt64
   srcname: mingw-w64-apr
   binname: mingw-w64-ucrt-x86_64-apr
@@ -1332,6 +1324,21 @@
   version: 1.7.6
   origversion: 1.7.6-2
   status: newest
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: apr
+  binnames:
+    - libapr1-dev
+    - libapr1t64
+  visiblename: apr
+  version: 1.7.5
+  origversion: 1.7.5-1
+  status: outdated
+  maintainers:
+    - debian-apache@lists.debian.org
+    - sf@debian.org
+  categories:
+    - libdevel
 - repo: ravenports
   srcname: apr1
   binname: apr1
@@ -1590,7 +1597,7 @@
   status: newest
   summary: Supporting library for the Apache web server
   maintainers:
-    - fallback-mnt-vylen@repology
+    - wonkru-dev@proton.me
 - repo: wikidata
   srcname: Q617014
   visiblename: Apache Portable Runtime
@@ -1618,139 +1625,39 @@
   summary: Mirror of Apache Portable Runtime
   licenses:
     - Apache-2.0
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: apr
-  visiblename: apr
-  version: 1.7.0
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: patches
-  binname: apr
-  visiblename: apr
-  version: 1.7.2
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: trisquel_10_0
-  subrepo: nabia-security/main
-  srcname: apr
-  binnames:
-    - libapr1
-    - libapr1-dev
-    - libapr1-dbg
-  visiblename: apr
-  version: 1.6.5
-  origversion: 1.6.5-1ubuntu1.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - sf@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: apertis_v2023
-  subrepo: v2023/development
-  srcname: apr
-  binnames:
-    - libapr1
-    - libapr1-dev
-  visiblename: apr
-  version: 1.7.0
-  origversion: 1.7.0-6+deb11u2+apertis0
-  status: outdated
-  maintainers:
-    - debian-apache@lists.debian.org
-    - sf@debian.org
-  vulnerable: true
-- repo: apertis_v2024
-  subrepo: v2024/development
-  srcname: apr
-  binnames:
-    - libapr1
-    - libapr1-dev
-  visiblename: apr
-  version: 1.7.2
-  origversion: 1.7.2-3+deb12u1+apertis0
-  status: outdated
-  maintainers:
-    - debian-apache@lists.debian.org
-    - sf@debian.org
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: apr
-  binname: apr
-  visiblename: apr
-  version: 1.7.4
-  origversion: 1.7.4-r0
-  status: outdated
-  summary: The Apache Portable Runtime
-  maintainers:
-    - awilfox@adelielinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: apr
-  binname: apr-dbg
-  visiblename: apr-dbg
-  version: 1.7.4
-  origversion: 1.7.4-r0
-  status: outdated
-  summary: The Apache Portable Runtime (debug symbols)
-  maintainers:
-    - awilfox@adelielinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: apr
-  binname: apr-dev
-  visiblename: apr-dev
-  version: 1.7.4
-  origversion: 1.7.4-r0
-  status: outdated
-  summary: The Apache Portable Runtime
-  maintainers:
-    - awilfox@adelielinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
 - repo: aix_osp
-  srcname: apr0
-  visiblename: apr0
-  version: 0.9.19
-  origversion: 0.9.19-1
+  srcname: apr
+  visiblename: apr
+  version: 1.4.6
+  origversion: 1.4.6-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: apr
   visiblename: apr
-  version: 0.9.17
-  origversion: 0.9.17-1
+  version: 1.4.6
+  origversion: 1.4.6-2
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: apr
   visiblename: apr
-  version: 1.2.11
-  origversion: 1.2.11-1
+  version: 1.4.2
+  origversion: 1.4.2-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: apr
   visiblename: apr
-  version: 1.2.12
-  origversion: 1.2.12-1
+  version: 1.4.2
+  origversion: 1.4.2-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.4.5
+  origversion: 1.4.5-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -1812,41 +1719,6 @@
 - repo: aix_osp
   srcname: apr
   visiblename: apr
-  version: 1.4.2
-  origversion: 1.4.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.4.2
-  origversion: 1.4.2-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.4.5
-  origversion: 1.4.5-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.4.6
-  origversion: 1.4.6-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.4.6
-  origversion: 1.4.6-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
   version: 1.4.8
   origversion: 1.4.8-1
   status: legacy
@@ -1889,13 +1761,6 @@
 - repo: aix_osp
   srcname: apr
   visiblename: apr
-  version: 1.6.3
-  origversion: 1.6.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
   version: 1.6.5
   origversion: 1.6.5-1
   status: legacy
@@ -1906,6 +1771,13 @@
   version: 1.7.0
   origversion: 1.7.0-1
   status: outdated
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.6.3
+  origversion: 1.6.3-1
+  status: legacy
   vulnerable: true
 - repo: aixtoolbox
   srcname: apr
@@ -1934,22 +1806,6 @@
   categories:
     - System Environment/Libraries
   vulnerable: true
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: apr
-  binnames:
-    - libapr1
-    - libapr1-dev
-  visiblename: apr
-  version: 1.7.0
-  origversion: 1.7.0-6+deb11u2
-  status: outdated
-  maintainers:
-    - debian-apache@lists.debian.org
-    - sf@debian.org
-  categories:
-    - libs
-  vulnerable: true
 - repo: almalinux_9
   subrepo: AppStream
   srcname: apr
@@ -1969,6 +1825,143 @@
     - ASL 2.0 and BSD with advertising and ISC and BSD
   categories:
     - Unspecified
+  vulnerable: true
+- repo: apertis_v2023
+  subrepo: v2023/development
+  srcname: apr
+  binnames:
+    - libapr1
+    - libapr1-dev
+  visiblename: apr
+  version: 1.7.0
+  origversion: 1.7.0-6+deb11u2+apertis0
+  status: outdated
+  maintainers:
+    - debian-apache@lists.debian.org
+    - sf@debian.org
+  vulnerable: true
+- repo: apertis_v2024
+  subrepo: v2024/development
+  srcname: apr
+  binnames:
+    - libapr1
+    - libapr1-dev
+  visiblename: apr
+  version: 1.7.2
+  origversion: 1.7.2-3+deb12u1+apertis0
+  status: outdated
+  maintainers:
+    - debian-apache@lists.debian.org
+    - sf@debian.org
+  vulnerable: true
+- repo: apertis_v2025
+  subrepo: v2025/development
+  srcname: apr
+  binnames:
+    - libapr1
+    - libapr1-dev
+  visiblename: apr
+  version: 1.7.2
+  origversion: 1.7.2-3+deb12u1+apertis0
+  status: outdated
+  maintainers:
+    - debian-apache@lists.debian.org
+    - sf@debian.org
+  vulnerable: true
+- repo: openkylin_2_0
+  subrepo: nile/main
+  srcname: apr
+  binnames:
+    - libapr1t64
+    - libapr1-dev
+  visiblename: apr
+  version: 1.7.2
+  origversion: 1.7.2-ok2
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+    - sf@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.2.11
+  origversion: 1.2.11-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.2.12
+  origversion: 1.2.12-1
+  status: legacy
+  vulnerable: true
+- repo: openkylin_2_0
+  subrepo: nile-proposed/main
+  srcname: apr
+  binnames:
+    - libapr1t64
+    - libapr1-dev
+  visiblename: apr
+  version: 1.7.2
+  origversion: 1.7.2-ok2
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+    - sf@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: adelie_current
+  subrepo: user
+  srcname: apr
+  binname: apr
+  visiblename: apr
+  version: 1.7.4
+  origversion: 1.7.4-r0
+  status: outdated
+  summary: The Apache Portable Runtime
+  maintainers:
+    - awilfox@adelielinux.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: adelie_current
+  subrepo: user
+  srcname: apr
+  binname: apr-dbg
+  visiblename: apr-dbg
+  version: 1.7.4
+  origversion: 1.7.4-r0
+  status: outdated
+  summary: The Apache Portable Runtime (debug symbols)
+  maintainers:
+    - awilfox@adelielinux.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: adelie_current
+  subrepo: user
+  srcname: apr
+  binname: apr-dev
+  visiblename: apr-dev
+  version: 1.7.4
+  origversion: 1.7.4-r0
+  status: outdated
+  summary: The Apache Portable Runtime
+  maintainers:
+    - awilfox@adelielinux.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr0
+  visiblename: apr0
+  version: 0.9.19
+  origversion: 0.9.19-1
+  status: legacy
   vulnerable: true
 - repo: amazon_1
   subrepo: main
@@ -2067,20 +2060,6 @@
     - ASL 2.0 and BSD with advertising and ISC and BSD
   categories:
     - Unspecified
-  vulnerable: true
-- repo: apertis_v2025
-  subrepo: v2025/development
-  srcname: apr
-  binnames:
-    - libapr1
-    - libapr1-dev
-  visiblename: apr
-  version: 1.7.2
-  origversion: 1.7.2-3+deb12u1+apertis0
-  status: outdated
-  maintainers:
-    - debian-apache@lists.debian.org
-    - sf@debian.org
   vulnerable: true
 - repo: centos_6
   subrepo: os
@@ -2213,22 +2192,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: apr
-  binnames:
-    - libapr1
-    - libapr1-dev
-  visiblename: apr
-  version: 1.7.2
-  origversion: 1.7.2-3+deb12u1
-  status: outdated
-  maintainers:
-    - debian-apache@lists.debian.org
-    - sf@debian.org
-  categories:
-    - libs
-  vulnerable: true
 - repo: centos_stream_10
   subrepo: AppStream
   srcname: apr
@@ -2311,15 +2274,21 @@
   categories:
     - libs
   vulnerable: true
-- repo: slackware64_15_0
-  subrepo: patches
-  binname: apr
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: apr
+  binnames:
+    - libapr1
+    - libapr1-dev
   visiblename: apr
-  version: 1.7.2
-  origversion: null
+  version: 1.7.0
+  origversion: 1.7.0-6+deb11u2
   status: outdated
   maintainers:
-    - volkerdi@slackware.com
+    - debian-apache@lists.debian.org
+    - sf@debian.org
+  categories:
+    - libs
   vulnerable: true
 - repo: debian_12
   subrepo: bookworm/main
@@ -2530,6 +2499,22 @@
     - Apache-2.0 AND (BSD-4-Clause-UC AND ISC AND Zlib AND Caldera-no-preamble)
   categories:
     - Unspecified
+  vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: apr
+  binnames:
+    - libapr1
+    - libapr1-dev
+  visiblename: apr
+  version: 1.7.2
+  origversion: 1.7.2-3+deb12u1
+  status: outdated
+  maintainers:
+    - debian-apache@lists.debian.org
+    - sf@debian.org
+  categories:
+    - libs
   vulnerable: true
 - repo: gobolinux
   srcname: APR
@@ -2794,38 +2779,6 @@
   categories:
     - libs
   vulnerable: true
-- repo: openkylin_2_0
-  subrepo: nile/main
-  srcname: apr
-  binnames:
-    - libapr1t64
-    - libapr1-dev
-  visiblename: apr
-  version: 1.7.2
-  origversion: 1.7.2-ok2
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-    - sf@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: openkylin_2_0
-  subrepo: nile-proposed/main
-  srcname: apr
-  binnames:
-    - libapr1t64
-    - libapr1-dev
-  visiblename: apr
-  version: 1.7.2
-  origversion: 1.7.2-ok2
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-    - sf@debian.org
-  categories:
-    - libs
-  vulnerable: true
 - repo: openkylin_3_0
   subrepo: huanghe/main
   srcname: apr
@@ -3081,6 +3034,53 @@
   maintainers:
     - volkerdi@slackware.com
   vulnerable: true
+- repo: slackware64_15_0
+  subrepo: patches
+  binname: apr
+  visiblename: apr
+  version: 1.7.2
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: apr
+  visiblename: apr
+  version: 1.7.0
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: patches
+  binname: apr
+  visiblename: apr
+  version: 1.7.2
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: trisquel_10_0
+  subrepo: nabia-security/main
+  srcname: apr
+  binnames:
+    - libapr1
+    - libapr1-dev
+    - libapr1-dbg
+  visiblename: apr
+  version: 1.6.5
+  origversion: 1.6.5-1ubuntu1.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - sf@debian.org
+  categories:
+    - libs
+  vulnerable: true
 - repo: trisquel_10_0
   subrepo: nabia-updates/main
   srcname: apr
@@ -3296,22 +3296,6 @@
     - libs
   vulnerable: true
 - repo: ubuntu_24_04
-  subrepo: noble-updates/main
-  srcname: apr
-  binnames:
-    - libapr1t64
-    - libapr1-dev
-  visiblename: apr
-  version: 1.7.2
-  origversion: 1.7.2-3.1ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - sf@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: ubuntu_24_04
   subrepo: noble/main
   srcname: apr
   binnames:
@@ -3320,6 +3304,22 @@
   visiblename: apr
   version: 1.7.2
   origversion: 1.7.2-3.1build2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - sf@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: ubuntu_24_04
+  subrepo: noble-updates/main
+  srcname: apr
+  binnames:
+    - libapr1t64
+    - libapr1-dev
+  visiblename: apr
+  version: 1.7.2
+  origversion: 1.7.2-3.1ubuntu0.1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
