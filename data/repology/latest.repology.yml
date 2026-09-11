@@ -1,18 +1,38 @@
-- repo: raspbian_testing
-  subrepo: main
+- repo: aix_osp
   srcname: apr
-  binnames:
-    - libapr1t64
-    - libapr1-dev
   visiblename: apr
-  version: 1.7.6
-  origversion: 1.7.6-3
-  status: newest
-  maintainers:
-    - debian-apache@lists.debian.org
-    - sf@debian.org
-  categories:
-    - libs
+  version: 1.2.12
+  origversion: 1.2.12-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.3.12
+  origversion: 1.3.12-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.3.12
+  origversion: 1.3.12-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.3.12
+  origversion: 1.3.12-3
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.3.2
+  origversion: 1.3.2-1
+  status: legacy
+  vulnerable: true
 - repo: alpine_3_17
   subrepo: main
   srcname: apr
@@ -208,13 +228,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 0.9.17
-  origversion: 0.9.17-1
-  status: legacy
-  vulnerable: true
 - repo: alpine_3_24
   subrepo: main
   srcname: apr
@@ -380,21 +393,6 @@
   summary: The Apache Portable Runtime
   licenses:
     - Apache-2.0
-- repo: debian_14
-  subrepo: forky/main
-  srcname: apr
-  binnames:
-    - libapr1t64
-    - libapr1-dev
-  visiblename: apr
-  version: 1.7.6
-  origversion: 1.7.6-3
-  status: newest
-  maintainers:
-    - debian-apache@lists.debian.org
-    - sf@debian.org
-  categories:
-    - libs
 - repo: centos_stream_10
   subrepo: AppStream
   srcname: apr
@@ -535,17 +533,21 @@
     - sf@debian.org
   categories:
     - libs
-- repo: manjaro_testing
-  subrepo: extra
+- repo: debian_14
+  subrepo: forky/main
   srcname: apr
-  binname: apr
+  binnames:
+    - libapr1t64
+    - libapr1-dev
   visiblename: apr
   version: 1.7.6
-  origversion: 1.7.6-1
+  origversion: 1.7.6-3
   status: newest
-  summary: The Apache Portable Runtime
-  licenses:
-    - Apache-2.0
+  maintainers:
+    - debian-apache@lists.debian.org
+    - sf@debian.org
+  categories:
+    - libs
 - repo: debian_unstable
   subrepo: sid/main
   srcname: apr
@@ -576,19 +578,6 @@
     - sf@debian.org
   categories:
     - libs
-- repo: msys2_msys2
-  subrepo: x86_64
-  srcname: apr
-  binname: apr
-  visiblename: apr
-  version: 1.7.6
-  origversion: 1.7.6-2
-  status: newest
-  summary: The Apache Portable Runtime
-  licenses:
-    - spdx:Apache-2.0
-  categories:
-    - libraries
 - repo: exherbo
   subrepo: arbor
   srcname: dev-libs/apr
@@ -710,17 +699,6 @@
     - Apache-2.0 AND (BSD-4-Clause-UC AND ISC AND Zlib AND Caldera-no-preamble)
   categories:
     - Unspecified
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: apr
-  binname: apr
-  visiblename: apr
-  version: 1.7.6
-  origversion: 1.7.6-1
-  status: newest
-  summary: The Apache Portable Runtime
-  licenses:
-    - Apache-2.0
 - repo: fedora_rawhide
   subrepo: development
   srcname: apr
@@ -944,6 +922,28 @@
   summary: The Apache Portable Runtime
   licenses:
     - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: apr
+  binname: apr
+  visiblename: apr
+  version: 1.7.6
+  origversion: 1.7.6-1
+  status: newest
+  summary: The Apache Portable Runtime
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: apr
+  binname: apr
+  visiblename: apr
+  version: 1.7.6
+  origversion: 1.7.6-1
+  status: newest
+  summary: The Apache Portable Runtime
+  licenses:
+    - Apache-2.0
 - repo: msys2_clang64
   srcname: mingw-w64-apr
   binname: mingw-w64-clang-x86_64-apr
@@ -988,21 +988,19 @@
     - spdx:Apache-2.0
   categories:
     - development
-- repo: raspbian_stable
-  subrepo: main
+- repo: msys2_msys2
+  subrepo: x86_64
   srcname: apr
-  binnames:
-    - libapr1t64
-    - libapr1-dev
+  binname: apr
   visiblename: apr
-  version: 1.7.5
-  origversion: 1.7.5-1
-  status: outdated
-  maintainers:
-    - debian-apache@lists.debian.org
-    - sf@debian.org
+  version: 1.7.6
+  origversion: 1.7.6-2
+  status: newest
+  summary: The Apache Portable Runtime
+  licenses:
+    - spdx:Apache-2.0
   categories:
-    - libs
+    - libraries
 - repo: msys2_ucrt64
   srcname: mingw-w64-apr
   binname: mingw-w64-ucrt-x86_64-apr
@@ -1339,6 +1337,36 @@
     - sf@debian.org
   categories:
     - libdevel
+- repo: raspbian_stable
+  subrepo: main
+  srcname: apr
+  binnames:
+    - libapr1t64
+    - libapr1-dev
+  visiblename: apr
+  version: 1.7.5
+  origversion: 1.7.5-1
+  status: outdated
+  maintainers:
+    - debian-apache@lists.debian.org
+    - sf@debian.org
+  categories:
+    - libs
+- repo: raspbian_testing
+  subrepo: main
+  srcname: apr
+  binnames:
+    - libapr1t64
+    - libapr1-dev
+  visiblename: apr
+  version: 1.7.6
+  origversion: 1.7.6-3
+  status: newest
+  maintainers:
+    - debian-apache@lists.debian.org
+    - sf@debian.org
+  categories:
+    - libs
 - repo: ravenports
   srcname: apr1
   binname: apr1
@@ -1628,134 +1656,22 @@
 - repo: aix_osp
   srcname: apr
   visiblename: apr
-  version: 1.4.6
-  origversion: 1.4.6-1
+  version: 0.9.17
+  origversion: 0.9.17-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: apr
   visiblename: apr
-  version: 1.4.6
-  origversion: 1.4.6-2
+  version: 1.2.11
+  origversion: 1.2.11-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: apr
   visiblename: apr
-  version: 1.4.2
-  origversion: 1.4.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.4.2
-  origversion: 1.4.2-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.4.5
-  origversion: 1.4.5-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.3.12
-  origversion: 1.3.12-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.3.12
-  origversion: 1.3.12-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.3.12
-  origversion: 1.3.12-3
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.3.2
-  origversion: 1.3.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.3.3
-  origversion: 1.3.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.3.3
-  origversion: 1.3.3-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.3.9
-  origversion: 1.3.9-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.3.9
-  origversion: 1.3.9-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.4.8
-  origversion: 1.4.8-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.5.1
-  origversion: 1.5.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.5.2
-  origversion: 1.5.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.5.2
-  origversion: 1.5.2-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: apr
-  visiblename: apr
-  version: 1.6.2
-  origversion: 1.6.2-1
+  version: 1.6.3
+  origversion: 1.6.3-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -1772,147 +1688,59 @@
   origversion: 1.7.0-1
   status: outdated
   vulnerable: true
-- repo: aix_osp
+- repo: eurolinux_8
+  subrepo: appstream
   srcname: apr
   visiblename: apr
   version: 1.6.3
-  origversion: 1.6.3-1
-  status: legacy
-  vulnerable: true
-- repo: aixtoolbox
-  srcname: apr
-  visiblename: apr
-  version: 1.7.4
-  origversion: 1.7.4-1
+  origversion: 1.6.3-9.el8
   status: outdated
   summary: Apache Portable Runtime library
-  licenses:
-    - Apache Software License
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: apr
-  visiblename: apr
-  version: 1.6.3
-  origversion: 1.6.3-12.el8
-  status: outdated
-  summary: Apache Portable Runtime library
-  maintainers:
-    - packager@almalinux.org
   licenses:
     - ASL 2.0 and BSD with advertising and ISC and BSD
   categories:
     - System Environment/Libraries
   vulnerable: true
-- repo: almalinux_9
-  subrepo: AppStream
+- repo: centos_6
+  subrepo: os
   srcname: apr
-  binnames:
-    - apr
-    - apr-devel
-    - apr-debuginfo
-    - apr-debugsource
   visiblename: apr
-  version: 1.7.0
-  origversion: 1.7.0-12.el9_3
+  version: 1.3.9
+  origversion: 1.3.9-5.el6_9.1
   status: outdated
   summary: Apache Portable Runtime library
-  maintainers:
-    - packager@almalinux.org
   licenses:
-    - ASL 2.0 and BSD with advertising and ISC and BSD
+    - ASL 2.0
   categories:
-    - Unspecified
-  vulnerable: true
-- repo: apertis_v2023
-  subrepo: v2023/development
-  srcname: apr
-  binnames:
-    - libapr1
-    - libapr1-dev
-  visiblename: apr
-  version: 1.7.0
-  origversion: 1.7.0-6+deb11u2+apertis0
-  status: outdated
-  maintainers:
-    - debian-apache@lists.debian.org
-    - sf@debian.org
-  vulnerable: true
-- repo: apertis_v2024
-  subrepo: v2024/development
-  srcname: apr
-  binnames:
-    - libapr1
-    - libapr1-dev
-  visiblename: apr
-  version: 1.7.2
-  origversion: 1.7.2-3+deb12u1+apertis0
-  status: outdated
-  maintainers:
-    - debian-apache@lists.debian.org
-    - sf@debian.org
-  vulnerable: true
-- repo: apertis_v2025
-  subrepo: v2025/development
-  srcname: apr
-  binnames:
-    - libapr1
-    - libapr1-dev
-  visiblename: apr
-  version: 1.7.2
-  origversion: 1.7.2-3+deb12u1+apertis0
-  status: outdated
-  maintainers:
-    - debian-apache@lists.debian.org
-    - sf@debian.org
-  vulnerable: true
-- repo: openkylin_2_0
-  subrepo: nile/main
-  srcname: apr
-  binnames:
-    - libapr1t64
-    - libapr1-dev
-  visiblename: apr
-  version: 1.7.2
-  origversion: 1.7.2-ok2
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-    - sf@debian.org
-  categories:
-    - libs
+    - System Environment/Libraries
   vulnerable: true
 - repo: aix_osp
   srcname: apr
   visiblename: apr
-  version: 1.2.11
-  origversion: 1.2.11-1
+  version: 1.4.6
+  origversion: 1.4.6-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: apr
   visiblename: apr
-  version: 1.2.12
-  origversion: 1.2.12-1
+  version: 1.4.6
+  origversion: 1.4.6-2
   status: legacy
   vulnerable: true
-- repo: openkylin_2_0
-  subrepo: nile-proposed/main
+- repo: aix_osp
   srcname: apr
-  binnames:
-    - libapr1t64
-    - libapr1-dev
   visiblename: apr
-  version: 1.7.2
-  origversion: 1.7.2-ok2
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-    - sf@debian.org
-  categories:
-    - libs
+  version: 1.4.8
+  origversion: 1.4.8-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: legacy
   vulnerable: true
 - repo: adelie_current
   subrepo: user
@@ -1962,6 +1790,41 @@
   version: 0.9.19
   origversion: 0.9.19-1
   status: legacy
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: apr
+  visiblename: apr
+  version: 1.6.3
+  origversion: 1.6.3-12.el8
+  status: outdated
+  summary: Apache Portable Runtime library
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - ASL 2.0 and BSD with advertising and ISC and BSD
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: almalinux_9
+  subrepo: AppStream
+  srcname: apr
+  binnames:
+    - apr
+    - apr-devel
+    - apr-debuginfo
+    - apr-debugsource
+  visiblename: apr
+  version: 1.7.0
+  origversion: 1.7.0-12.el9_3
+  status: outdated
+  summary: Apache Portable Runtime library
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - ASL 2.0 and BSD with advertising and ISC and BSD
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: amazon_1
   subrepo: main
@@ -2061,18 +1924,47 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: centos_6
-  subrepo: os
+- repo: apertis_v2023
+  subrepo: v2023/development
   srcname: apr
+  binnames:
+    - libapr1
+    - libapr1-dev
   visiblename: apr
-  version: 1.3.9
-  origversion: 1.3.9-5.el6_9.1
+  version: 1.7.0
+  origversion: 1.7.0-6+deb11u2+apertis0
   status: outdated
-  summary: Apache Portable Runtime library
-  licenses:
-    - ASL 2.0
-  categories:
-    - System Environment/Libraries
+  maintainers:
+    - debian-apache@lists.debian.org
+    - sf@debian.org
+  vulnerable: true
+- repo: apertis_v2024
+  subrepo: v2024/development
+  srcname: apr
+  binnames:
+    - libapr1
+    - libapr1-dev
+  visiblename: apr
+  version: 1.7.2
+  origversion: 1.7.2-3+deb12u1+apertis0
+  status: outdated
+  maintainers:
+    - debian-apache@lists.debian.org
+    - sf@debian.org
+  vulnerable: true
+- repo: apertis_v2025
+  subrepo: v2025/development
+  srcname: apr
+  binnames:
+    - libapr1
+    - libapr1-dev
+  visiblename: apr
+  version: 1.7.2
+  origversion: 1.7.2-3+deb12u1+apertis0
+  status: outdated
+  maintainers:
+    - debian-apache@lists.debian.org
+    - sf@debian.org
   vulnerable: true
 - repo: centos_7
   subrepo: os
@@ -2101,6 +1993,48 @@
     - ASL 2.0 and BSD with advertising and ISC and BSD
   categories:
     - System Environment/Libraries
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.3.3
+  origversion: 1.3.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.3.3
+  origversion: 1.3.3-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.3.9
+  origversion: 1.3.9-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.3.9
+  origversion: 1.3.9-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.4.2
+  origversion: 1.4.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.4.2
+  origversion: 1.4.2-2
+  status: legacy
   vulnerable: true
 - repo: centos_stream_8
   subrepo: AppStream
@@ -2131,6 +2065,13 @@
     - ASL 2.0 and BSD with advertising and ISC and BSD
   categories:
     - System Environment/Libraries
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.4.5
+  origversion: 1.4.5-1
+  status: legacy
   vulnerable: true
 - repo: centos_stream_9
   subrepo: AppStream
@@ -2290,6 +2231,20 @@
   categories:
     - libs
   vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.5.2
+  origversion: 1.5.2-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.5.1
+  origversion: 1.5.1-1
+  status: legacy
+  vulnerable: true
 - repo: debian_12
   subrepo: bookworm/main
   srcname: apr
@@ -2397,19 +2352,6 @@
   categories:
     - System Environment/Libraries
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: apr
-  visiblename: apr
-  version: 1.6.3
-  origversion: 1.6.3-9.el8
-  status: outdated
-  summary: Apache Portable Runtime library
-  licenses:
-    - ASL 2.0 and BSD with advertising and ISC and BSD
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
 - repo: eurolinux_9
   subrepo: appstream
   srcname: apr
@@ -2500,21 +2442,19 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: apr
-  binnames:
-    - libapr1
-    - libapr1-dev
-  visiblename: apr
-  version: 1.7.2
-  origversion: 1.7.2-3+deb12u1
-  status: outdated
+- repo: liguros_stable
+  srcname: dev-libs/apr
+  visiblename: dev-libs/apr
+  version: 1.7.4
+  origversion: 1.7.4-r2
+  status: legacy
+  summary: Apache Portable Runtime Library
   maintainers:
-    - debian-apache@lists.debian.org
-    - sf@debian.org
+    - apache-bugs@gentoo.org
+  licenses:
+    - Apache-2.0
   categories:
-    - libs
+    - dev-libs
   vulnerable: true
 - repo: gobolinux
   srcname: APR
@@ -2576,20 +2516,6 @@
   visiblename: dev-libs/apr
   version: 1.7.4
   origversion: 1.7.4-r3
-  status: legacy
-  summary: Apache Portable Runtime Library
-  maintainers:
-    - apache-bugs@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - dev-libs
-  vulnerable: true
-- repo: liguros_stable
-  srcname: dev-libs/apr
-  visiblename: dev-libs/apr
-  version: 1.7.4
-  origversion: 1.7.4-r2
   status: legacy
   summary: Apache Portable Runtime Library
   maintainers:
@@ -2713,6 +2639,13 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.5.2
+  origversion: 1.5.2-1
+  status: legacy
+  vulnerable: true
 - repo: openeuler_24_03_lts_sp1
   srcname: apr
   binnames:
@@ -2776,6 +2709,38 @@
   status: outdated
   maintainers:
     - packaging@lists.openkylin.top
+  categories:
+    - libs
+  vulnerable: true
+- repo: openkylin_2_0
+  subrepo: nile/main
+  srcname: apr
+  binnames:
+    - libapr1t64
+    - libapr1-dev
+  visiblename: apr
+  version: 1.7.2
+  origversion: 1.7.2-ok2
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+    - sf@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: openkylin_2_0
+  subrepo: nile-proposed/main
+  srcname: apr
+  binnames:
+    - libapr1t64
+    - libapr1-dev
+  visiblename: apr
+  version: 1.7.2
+  origversion: 1.7.2-ok2
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+    - sf@debian.org
   categories:
     - libs
   vulnerable: true
@@ -2944,6 +2909,22 @@
   visiblename: apr
   version: 1.7.0
   origversion: 1.7.0-6+deb11u2
+  status: outdated
+  maintainers:
+    - debian-apache@lists.debian.org
+    - sf@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: apr
+  binnames:
+    - libapr1
+    - libapr1-dev
+  visiblename: apr
+  version: 1.7.2
+  origversion: 1.7.2-3+deb12u1
   status: outdated
   maintainers:
     - debian-apache@lists.debian.org
@@ -3346,4 +3327,23 @@
   summary: Mirror of Apache Portable Runtime
   licenses:
     - Apache-2.0
+  vulnerable: true
+- repo: aix_osp
+  srcname: apr
+  visiblename: apr
+  version: 1.6.2
+  origversion: 1.6.2-1
+  status: legacy
+  vulnerable: true
+- repo: aixtoolbox
+  srcname: apr
+  visiblename: apr
+  version: 1.7.4
+  origversion: 1.7.4-1
+  status: outdated
+  summary: Apache Portable Runtime library
+  licenses:
+    - Apache Software License
+  categories:
+    - System Environment/Libraries
   vulnerable: true
