@@ -2,15 +2,15 @@ about:
   description: "Mirror of Apache Portable Runtime"
   license: Apache-2.0
   homepage: 
-  head: 573305c
+  head: 03772f3
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-10-29T06:52:28Z
+  collectedAt: 2026-10-30T06:54:11Z
 timeline:
   created: 2009-03-27
-  lastCommit: 2026-10-28
+  lastCommit: 2026-10-29
   lastVersion: 
   lastRelease: 
   lastPrerelease: 
@@ -23,7 +23,7 @@ popularity:
   pullRequest: 66
   issue: 0
 language:
-  C: 5294271
+  C: 5302219
   M4: 168613
   Python: 44613
   C++: 42276
@@ -33,76 +33,76 @@ language:
   Awk: 10290
   Perl: 6802
   Batchfile: 137
-totalBytes: 5636578
+totalBytes: 5644526
 recent:
   last30d:
-    since: 2026-09-29
+    since: 2026-09-30
     release: 0
     mergedPR: 0
     openPR: 1
     closedIssue: 0
     openIssue: 0
-    commit: 1
+    commit: 4
   last60d:
-    since: 2026-08-30
+    since: 2026-08-31
     release: 0
     mergedPR: 0
     openPR: 1
     closedIssue: 0
     openIssue: 0
-    commit: 1
+    commit: 4
   last90d:
-    since: 2026-07-31
+    since: 2026-08-01
     release: 0
     mergedPR: 0
     openPR: 1
     closedIssue: 0
     openIssue: 0
-    commit: 17
+    commit: 20
   last180d:
-    since: 2026-05-02
+    since: 2026-05-03
     release: 0
     mergedPR: 0
     openPR: 1
     closedIssue: 0
     openIssue: 0
-    commit: 59
+    commit: 62
   last360d:
-    since: 2025-11-03
+    since: 2025-11-04
     release: 0
     mergedPR: 0
     openPR: 2
     closedIssue: 0
     openIssue: 0
-    commit: 69
+    commit: 72
   last720d:
-    since: 2024-11-08
+    since: 2024-11-09
     release: 0
     mergedPR: 0
     openPR: 4
     closedIssue: 0
     openIssue: 0
-    commit: 144
+    commit: 147
 total:
   release: 0
   mergedPR: 0
   openPR: 18
   closedIssue: 0
   openIssue: 0
-  commit: 9622
+  commit: 9625
 ---
 path: /home/runner/.x-repo/github.com/apache/apr
-collectedAt: 2026-10-29T06:52:34Z
+collectedAt: 2026-10-30T06:54:15Z
 loc:
   C:
-    code: 98688
-    comments: 15866
-    blanks: 19542
+    code: 98869
+    comments: 15884
+    blanks: 19584
     files: 346
   CHeader:
-    code: 9305
-    comments: 17469
-    blanks: 3099
+    code: 9312
+    comments: 17471
+    blanks: 3100
     files: 134
   M4:
     code: 4083
@@ -170,9 +170,9 @@ loc:
     blanks: 0
     files: 3
 total:
-  code: 120978
-  comments: 36014
-  blanks: 24173
+  code: 121166
+  comments: 36034
+  blanks: 24216
   files: 544
 ---
 date: "2026-10-26"
