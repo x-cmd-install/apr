@@ -45,18 +45,37 @@ x install apr
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 18 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 9631
+- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 18 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 9632
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-08 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-08-09 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last180d | 2026-05-11 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 360d | 2025-11-12 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last720d | 2024-11-17 | 0 | 0 | 4 | 0 | 0 | 153 |
+| 30d | 2026-10-09 | 0 | 0 | 1 | 0 | 0 | 11 |
+| last60d | 2026-09-09 | 0 | 0 | 1 | 0 | 0 | 11 |
+| 90d | 2026-08-10 | 0 | 0 | 1 | 0 | 0 | 11 |
+| last180d | 2026-05-12 | 0 | 0 | 1 | 0 | 0 | 50 |
+| 360d | 2025-11-13 | 0 | 0 | 2 | 0 | 0 | 75 |
+| last720d | 2024-11-18 | 0 | 0 | 4 | 0 | 0 | 154 |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/apr) 上共有 **251** 个发行版报告此项目。**81** 个 ✅ 已是最新上游版本，**118** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.7.6` | ✅ latest |
+| Debian 14 | `1.7.6` | ✅ latest |
+| Debian 13 | `1.7.5` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.7.6` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.7.2` | ⚠️ outdated |
+| Arch | `1.7.6` | ✅ latest |
+| Homebrew | `1.7.6` | ✅ latest |
+| Fedora rawhide | `1.7.6` | ✅ latest |
+| Nix unstable | `1.7.6` | ✅ latest |
+| Void | `1.7.6` | ✅ latest |
+| Alpine edge | `1.7.6` | ✅ latest |
+| openSUSE Tumbleweed | `1.7.6` | ✅ latest |
 
 ## 改进这些数据
 
@@ -67,4 +86,4 @@ apr 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261107.yml` · 2026-11-07T07:00:22Z._
+_数据快照: `data/card/261108.yml` · 2026-11-08T06:56:02Z._
