@@ -14,11 +14,11 @@ x install apr
 
 ## Code insight
 
-Total: **121,206** lines of code across **511** files in the top 5 languages.
+Total: **121,422** lines of code across **511** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 98,911 | 15,884 | 19,602 | 346 |
+| C | 99,127 | 15,915 | 19,642 | 346 |
 | CHeader | 9,310 | 17,470 | 3,099 | 134 |
 | M4 | 4,083 | 1,223 | 342 | 16 |
 | Autoconf | 3,600 | 1,013 | 667 | 13 |
@@ -45,18 +45,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 18 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 9632
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 18 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 9636
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 0 | 0 | 1 | 0 | 0 | 11 |
-| last60d | 2026-09-15 | 0 | 0 | 1 | 0 | 0 | 11 |
-| 90d | 2026-08-16 | 0 | 0 | 1 | 0 | 0 | 11 |
-| last180d | 2026-05-18 | 0 | 0 | 1 | 0 | 0 | 50 |
-| 360d | 2025-11-19 | 0 | 0 | 2 | 0 | 0 | 75 |
-| last720d | 2024-11-24 | 0 | 0 | 4 | 0 | 0 | 154 |
+| 30d | 2026-10-16 | 0 | 0 | 1 | 0 | 0 | 15 |
+| last60d | 2026-09-16 | 0 | 0 | 1 | 0 | 0 | 15 |
+| 90d | 2026-08-17 | 0 | 0 | 1 | 0 | 0 | 15 |
+| last180d | 2026-05-19 | 0 | 0 | 1 | 0 | 0 | 48 |
+| 360d | 2025-11-20 | 0 | 0 | 2 | 0 | 0 | 79 |
+| last720d | 2024-11-25 | 0 | 0 | 4 | 0 | 0 | 158 |
 
 ## Distribution status
 
@@ -86,4 +86,4 @@ Install metadata for apr lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T08:02:32Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T07:41:39Z._
