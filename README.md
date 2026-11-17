@@ -45,22 +45,22 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 19 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 9636
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 19 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 9637
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 2 | 0 | 0 | 15 |
-| last60d | 2026-09-17 | 0 | 0 | 2 | 0 | 0 | 15 |
-| 90d | 2026-08-18 | 0 | 0 | 2 | 0 | 0 | 15 |
-| last180d | 2026-05-20 | 0 | 0 | 2 | 0 | 0 | 48 |
-| 360d | 2025-11-21 | 0 | 0 | 3 | 0 | 0 | 79 |
-| last720d | 2024-11-26 | 0 | 0 | 5 | 0 | 0 | 158 |
+| 30d | 2026-10-18 | 0 | 0 | 2 | 0 | 0 | 16 |
+| last60d | 2026-09-18 | 0 | 0 | 2 | 0 | 0 | 16 |
+| 90d | 2026-08-19 | 0 | 0 | 2 | 0 | 0 | 16 |
+| last180d | 2026-05-21 | 0 | 0 | 2 | 0 | 0 | 49 |
+| 360d | 2025-11-22 | 0 | 0 | 3 | 0 | 0 | 80 |
+| last720d | 2024-11-27 | 0 | 0 | 5 | 0 | 0 | 159 |
 
 ## Distribution status
 
-Reported by **249** distros on [repology.org](https://repology.org/project/apr). **80** are ✅ on the latest upstream release, **117** are ⚠️ on an older version.
+Reported by **250** distros on [repology.org](https://repology.org/project/apr). **81** are ✅ on the latest upstream release, **117** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,4 +86,4 @@ Install metadata for apr lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T08:18:13Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T09:15:11Z._
